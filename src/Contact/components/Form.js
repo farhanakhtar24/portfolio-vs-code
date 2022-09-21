@@ -12,7 +12,7 @@ const Form = () => {
 					<input />
 				</div>
 				<div className="flex flex-col">
-					EMAIL
+					EMAI
 					<input />
 				</div>
 			</form>
