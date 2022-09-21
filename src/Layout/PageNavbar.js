@@ -44,16 +44,16 @@ const PageNavbar = () => {
 	const navigate = useNavigate();
 
 	return (
-		<ul className="w-full bg-page-navbar-blue flex text-sm">
+		<ul className="w-full bg-page-navbar-blue flex text-sm gap-1">
 			{pages.map((page) => {
 				return (
 					<li
 						onClick={() => navigate(page.link)}
-						className={`px-5 py-1 border-t border-t-nav-blue hover:border-t-page-navbar-gray flex items-center
+						className={`px-5 py-1 border-t border-t-nav-blue flex items-center gap-1
                         ${
 							pathname === page.link
-								? "text-white bg-main-pages-blue border-t-main-pages-blue"
-								: "text-gray-500"
+								? "text-white bg-main-pages-blue border-t-white"
+								: "text-gray-500  "
 						} hover:text-white hover:cursor-pointer`}>
 						{page.icon}
 						{page.name}

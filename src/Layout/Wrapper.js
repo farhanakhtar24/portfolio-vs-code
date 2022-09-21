@@ -12,7 +12,7 @@ const Wrapper = (props) => {
 			<div className="w-full flex h-full">
 				<IconBar />
 				<SideBar />
-				<div className="w-full h-full flex flex-col">
+				<div className="w-full h-full flex flex-col bg-main-pages-blue">
 					<PageNavbar />
 					{props.children}
 				</div>
