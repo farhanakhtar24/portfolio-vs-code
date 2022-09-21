@@ -1,6 +1,7 @@
 import React from "react";
 import IconBar from "./IconBar";
 import Navbar from "./Navbar";
+import PageNavbar from "./PageNavbar";
 import SideBar from "./SideBar";
 import TaskBar from "./TaskBar";
 
@@ -11,7 +12,10 @@ const Wrapper = (props) => {
 			<div className="w-full flex h-full">
 				<IconBar />
 				<SideBar />
-				<div className="w-full h-full">{props.children}</div>
+				<div className="w-full h-full flex flex-col">
+					<PageNavbar />
+					{props.children}
+				</div>
 			</div>
 			<TaskBar />
 		</div>

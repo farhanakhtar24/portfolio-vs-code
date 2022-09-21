@@ -8,7 +8,7 @@ import { BsBellFill } from "react-icons/bs";
 
 const TaskBar = () => {
 	return (
-		<div className="flex justify-between h-6 bg-taskbar-blue text-gray-300 items-center px-2">
+		<div className="flex justify-between h-6 bg-taskbar-blue text-gray-300 items-center px-2 border-t border-t-black">
 			<div className="flex items-center space-x-2 h-full">
 				{/* // branch */}
 				<div className="flex rounded hover:bg-gray-700 hover:text-white cursor-pointer h-full items-center">

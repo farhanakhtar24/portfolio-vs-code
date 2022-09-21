@@ -34,8 +34,8 @@ const navList = [
 const Navbar = () => {
 	return (
 		<nav
-			className="flex justify-between md:grid md:grid-cols-3 items-center h-6 text-sm 
-		bg-nav-blue text-gray-300">
+			className="flex justify-between md:grid md:grid-cols-3 items-center py-0.5 text-sm 
+		bg-nav-blue text-gray-300 border-b border-b-black">
 			<ul className="flex items-center h-6">
 				<img src={VSCodeIcon} alt="VScodeIcon" className="w-6 p-1" />
 				{navList.map((item) => {
@@ -48,7 +48,7 @@ const Navbar = () => {
 					);
 				})}
 			</ul>
-			<p className="flex justify-center items-center font-semibold text-xs sm:text-base truncate">
+			<p className="flex justify-center items-center font-medium text-xs sm:text-sm truncate">
 				Mohd Farhan Akhtar - Visual Studio Code
 			</p>
 			<ul className="flex justify-end h-6 items-center text-xs sm:text-lg">

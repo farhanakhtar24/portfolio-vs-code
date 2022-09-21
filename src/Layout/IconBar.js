@@ -5,6 +5,8 @@ import { BsSearch } from "react-icons/bs";
 import { Link, useLocation } from "react-router-dom";
 import { VscAccount } from "react-icons/vsc";
 import { VscSettingsGear } from "react-icons/vsc";
+import { FiGithub } from "react-icons/fi";
+import { GoMail } from "react-icons/go";
 
 const icons = [
 	{
@@ -22,12 +24,22 @@ const icons = [
 		icon: <AiOutlineFundProjectionScreen />,
 		page: "/projects",
 	},
+	{
+		id: 4,
+		icon: <FiGithub />,
+		page: "/github",
+	},
+	{
+		id: 5,
+		icon: <GoMail />,
+		page: "/contact",
+	},
 ];
 
 const IconBar = () => {
 	const { pathname } = useLocation();
 	return (
-		<div className="flex flex-col w-16 justify-between bg-iconbar-blue text-gray-500 text-xl">
+		<div className="flex flex-col w-14 justify-between bg-iconbar-blue text-gray-500 text-xl">
 			<ul className="flex flex-col">
 				{icons.map((icon) => {
 					return (
