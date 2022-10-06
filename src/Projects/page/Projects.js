@@ -4,28 +4,30 @@ import ProjectCard from "../components/ProjectCard";
 const ProjectList = [
 	{
 		id: 1,
-		imgUrl: "../Assets/Portfolio.png",
+		imgUrl: "https://github.com/farhanakhtar24/portfolio-vs-code/blob/master/src/Projects/Assets/Portfolio.png?raw=true",
 		title: "Portfolio",
 		desc: "My Portfolio Website built using latest technologies",
 		tech: ["React", "TailwindCSS", "Vercel"],
+		href: "https://github.com/farhanakhtar24/portfolio-vs-code",
+		liveDemo: "https://portfolio-vs-code-hoqt.vercel.app/",
 	},
 	{
 		id: 2,
-		imgUrl: "blob:https://vercel.com/73300782-243a-460d-8e99-2ee7fe1d35b2",
+		imgUrl: "https://github.com/farhanakhtar24/portfolio-vs-code/blob/master/src/Projects/Assets/Portfolio.png?raw=true",
 		title: "Portfolio",
 		desc: "My Portfolio Website built using latest technologies",
 		tech: ["React", "TailwindCSS", "Vercel"],
 	},
 	{
 		id: 3,
-		imgUrl: "blob:https://vercel.com/73300782-243a-460d-8e99-2ee7fe1d35b2",
+		imgUrl: "https://github.com/farhanakhtar24/portfolio-vs-code/blob/master/src/Projects/Assets/Portfolio.png?raw=true00782-243a-460d-8e99-2ee7fe1d35b2",
 		title: "Portfolio",
 		desc: "My Portfolio Website built using latest technologies",
 		tech: ["React", "TailwindCSS", "Vercel"],
 	},
 	{
 		id: 4,
-		imgUrl: "blob:https://vercel.com/73300782-243a-460d-8e99-2ee7fe1d35b2",
+		imgUrl: "https://github.com/farhanakhtar24/portfolio-vs-code/blob/master/src/Projects/Assets/Portfolio.png?raw=true",
 		title: "Portfolio",
 		desc: "My Portfolio Website built using latest technologies",
 		tech: ["React", "TailwindCSS", "Vercel"],
@@ -46,6 +48,8 @@ const Projects = () => {
 							title={project.title}
 							desc={project.desc}
 							tech={project.tech}
+							href={project.href}
+							liveDemo={project.liveDemo}
 						/>
 					);
 				})}
