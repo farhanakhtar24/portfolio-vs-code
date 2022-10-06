@@ -12,6 +12,10 @@ module.exports = {
 				"page-navbar-blue": "#1F2428",
 				"page-navbar-gray": "#5B595C",
 			},
+			fontFamily: {
+				PlexMono: ["IBM Plex Mono", "monospace"],
+				NotoSansMono: ["Noto Sans Mono", "monospace"],
+			},
 		},
 	},
 	plugins: [],

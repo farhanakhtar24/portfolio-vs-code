@@ -5,23 +5,21 @@ const ContactDiv = ({ contacts }) => {
 	const navigate = useNavigate();
 
 	return (
-		<div className="border-r border-r-white">
-			<h1 className="text-2xl font-semibold font-mono pb-4">
+		<div className="md:border-r md:border-r-white sm:text-xl text-sm">
+			<h1 className="text-xl sm:text-2xl font-semibold font-mono pb-4">
 				Reach Out Via Socials
 			</h1>
 			<ul>
 				<li>
-					<span className="text-gray-500">1</span>{" "}
+					<span className="text-gray-500">1&nbsp;&nbsp;</span>
 					<span className="text-gray-500">.socials</span>
-					{` {`}
+					&nbsp;{`{`}
 				</li>
 				{contacts.map((contact) => {
 					return (
 						<li>
-							<span className="mr-12 text-gray-500">
-								{contact.id}
-							</span>
-							{contact.name}:{" "}
+							<span className="text-gray-500">{contact.id}</span>
+							&nbsp;&nbsp;&nbsp;&nbsp;{contact.name}&nbsp;:&nbsp;
 							<a
 								href={contact.link}
 								target="_blank"
@@ -34,7 +32,7 @@ const ContactDiv = ({ contacts }) => {
 				})}
 				<li>
 					<span className="text-gray-500">7</span>
-					{"  }"}
+					&nbsp;&nbsp;{"}"}
 				</li>
 			</ul>
 		</div>

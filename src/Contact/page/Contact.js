@@ -38,7 +38,7 @@ const contacts = [
 
 const Contact = () => {
 	return (
-		<div className="p-7 grid grid-cols-2 gap-5 text-white font-mono text-lg">
+		<div className="p-7 flex flex-col md:grid md:grid-cols-2 gap-5 text-white font-mono text-lg">
 			<ContactDiv contacts={contacts} />
 			<Form />
 		</div>

@@ -14,7 +14,7 @@ const Wrapper = (props) => {
 				<SideBar />
 				<div className="w-full h-full flex flex-col bg-main-pages-blue">
 					<PageNavbar />
-					{props.children}
+					<span className="font-mono">{props.children}</span>
 				</div>
 			</div>
 			<TaskBar />
