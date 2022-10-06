@@ -4,7 +4,7 @@ import ProjectCard from "../components/ProjectCard";
 const ProjectList = [
 	{
 		id: 1,
-		imgUrl: "blob:https://vercel.com/73300782-243a-460d-8e99-2ee7fe1d35b2",
+		imgUrl: "../Assets/Portfolio.png",
 		title: "Portfolio",
 		desc: "My Portfolio Website built using latest technologies",
 		tech: ["React", "TailwindCSS", "Vercel"],
