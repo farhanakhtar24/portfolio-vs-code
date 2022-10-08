@@ -43,11 +43,11 @@ const ProjectList = [
 
 const Projects = () => {
 	return (
-		<div className="p-7 text-white">
-			<span className="text-xl sm:text-2xl">
+		<div className="p-7 text-white overflow-auto">
+			<span className="text-xl sm:text-2xl font-semibold">
 				Stuff i've build so far...
 			</span>
-			<div className="grid grid-cols-4 gap-5 mt-7">
+			<div className="flex flex-col sm:grid sm:grid-cols-3 lg:grid-cols-4 gap-5 mt-7 overflow-auto">
 				{ProjectList.map((project) => {
 					return (
 						<ProjectCard

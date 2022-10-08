@@ -46,13 +46,13 @@ const ProjectCard = ({ imgUrl, title, desc, techArr, href, liveDemo }) => {
 	return (
 		<div
 			className="w-full bg-sidebar-blue rounded-xl overflow-hidden hover:shadow-2xl 
-            transition-all cursor-pointer ">
+            transition-all cursor-pointer">
 			<img
 				src={imgUrl}
 				alt="title"
-				className="w-full h-1/3 rounded-xl object-cover object-top"
+				className="hidden sm:block w-full h-1/3 rounded-xl object-cover object-top"
 			/>
-			<div className="px-5 py-3 flex flex-col text-sm gap-3">
+			<div className="px-5 py-3 flex flex-col text-sm gap-3 mb-5 lg:mb-0">
 				<div className="text-lg">{title}</div>
 				<div>{desc}</div>
 				<div className="flex flex-wrap gap-2">

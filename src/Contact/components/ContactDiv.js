@@ -5,7 +5,7 @@ const ContactDiv = ({ contacts }) => {
 	const navigate = useNavigate();
 
 	return (
-		<div className="md:border-r md:border-r-white sm:text-xl text-sm">
+		<div className="lg:border-r lg:border-r-white sm:text-xl text-sm">
 			<h1 className="text-xl sm:text-2xl font-semibold font-mono pb-4">
 				Reach Out Via Socials
 			</h1>
