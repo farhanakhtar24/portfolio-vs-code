@@ -60,6 +60,18 @@ const Projects = () => {
 						/>
 					);
 				})}
+				{ProjectList.map((project) => {
+					return (
+						<ProjectCard
+							imgUrl={project.imgUrl}
+							title={project.title}
+							desc={project.desc}
+							techArr={project.techArr}
+							href={project.href}
+							liveDemo={project.liveDemo}
+						/>
+					);
+				})}
 			</div>
 		</div>
 	);
