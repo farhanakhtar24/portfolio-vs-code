@@ -1,3 +1,4 @@
+import { Worker } from "@react-pdf-viewer/core";
 import React from "react";
 import { Routes, Route, Navigate } from "react-router-dom";
 import About from "./About/page/About";

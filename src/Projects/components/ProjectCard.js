@@ -42,11 +42,10 @@ const TechIcon = ({ tech }) => {
 };
 
 const ProjectCard = ({ imgUrl, title, desc, techArr, href, liveDemo }) => {
-	// console.log(techArr);
 	return (
 		<div
-			className="w-full bg-sidebar-blue rounded-xl overflow-hidden hover:shadow-2xl 
-            transition-all cursor-pointer">
+			className="w-full bg-sidebar-blue rounded-xl overflow-hidden hover:shadow-2xl
+			transition-all">
 			<img
 				src={imgUrl}
 				alt="title"
