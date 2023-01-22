@@ -39,8 +39,8 @@ const ProjectList = [
 		title: "Fifa-Table-App",
 		desc: "My Portfolio Website built using latest technologies",
 		techArr: ["Next", "TailwindCSS", "Vercel", "MongoDB", "redux"],
-		href: "https://github.com/farhanakhtar24/fifa-table-app",
-		liveDemo: "https://fifa-table-app.vercel.app/",
+		href: "https://github.com/farhanakhtar24/portfolio-vs-code",
+		liveDemo: "https://farhanakhtar24.vercel.app",
 	},
 ];
 
