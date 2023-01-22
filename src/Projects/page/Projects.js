@@ -1,5 +1,8 @@
 import React from "react";
 import ProjectCard from "../components/ProjectCard";
+import fifaTableImage from "../Assets/fifa-table-app.png";
+import yangFormImage from "../Assets/yang-form.png";
+import portfolioImage from "../Assets/Portfolio.png";
 
 // Tech Allowed
 // [next, react, tailwindcss, vercel, node, mongodb, firebase, redux]
@@ -7,7 +10,7 @@ import ProjectCard from "../components/ProjectCard";
 const ProjectList = [
 	{
 		id: 1,
-		imgUrl: "https://github.com/farhanakhtar24/portfolio-vs-code/blob/master/src/Projects/Assets/Portfolio.png?raw=true",
+		imgUrl: fifaTableImage,
 		title: "Portfolio",
 		desc: "My Portfolio Website built using latest technologies",
 		techArr: ["React", "TailwindCSS", "Vercel", "redux"],
@@ -16,7 +19,7 @@ const ProjectList = [
 	},
 	{
 		id: 2,
-		imgUrl: "https://raw.githubusercontent.com/farhanakhtar24/portfolio-vs-code/master/src/Projects/Assets/yang-form.png",
+		imgUrl: yangFormImage,
 		title: "Yang-Form",
 		desc: "My Portfolio Website built using latest technologies",
 		techArr: [
@@ -32,7 +35,7 @@ const ProjectList = [
 	},
 	{
 		id: 3,
-		imgUrl: "https://raw.githubusercontent.com/farhanakhtar24/portfolio-vs-code/master/src/Projects/Assets/fifa-table-app.png",
+		imgUrl: portfolioImage,
 		title: "Fifa-Table-App",
 		desc: "My Portfolio Website built using latest technologies",
 		techArr: ["Next", "TailwindCSS", "Vercel", "MongoDB", "redux"],
