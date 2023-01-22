@@ -45,7 +45,7 @@ const SideBar = () => {
 	const { pathname } = useLocation();
 
 	return (
-		<div className="w-56 hidden lg:block shrink-0 bg-sidebar-blue border-x border-x-black text-white">
+		<div className="w-56 hidden lg:block shrink-0 bg-sidebar-blue border-l border-l-black text-white">
 			{/* heading explorer */}
 			<h1 className="p-2 text-sm tracking-wider">EXPLORER</h1>
 			{/* portfolio indexer */}

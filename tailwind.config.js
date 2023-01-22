@@ -17,6 +17,9 @@ module.exports = {
 				NotoSansMono: ["Noto Sans Mono", "monospace"],
 			},
 		},
+		backgroundImage: {
+			"i-code-websites": "url('/src/I_CODE_WEBSITES.svg')",
+		},
 	},
 	plugins: [],
 };
