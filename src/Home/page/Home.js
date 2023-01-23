@@ -16,7 +16,7 @@ const Home = () => {
 						</div>
 						<TypeAnimation
 							cursor={true}
-							sequence={["MERN Stack Web Developer", 1000]}
+							sequence={["MERN Stack Web Developer", 2000]}
 							wrapper="h2"
 							className="text-xl sm:text-2xl font-extralight mb-12"
 						/>
