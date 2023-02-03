@@ -10,17 +10,17 @@ const Home = () => {
 			{/* img in background  */}
 			<div className="flex flex-col-reverse gap-6 sm:grid sm:grid-cols-2 justify-center w-full h-full sm:bg-i-code-websites bg-left bg-cover bg-no-repeat">
 				<div className="flex items-center justify-center sm:justify-start">
-					<div>
-						<div className="text-2xl sm:text-5xl font-semibold mb-5 truncate">
+					<div className="flex flex-col items-center sm:block">
+						<div className="text-3xl sm:text-5xl font-semibold mb-2 sm:mb-5 truncate">
 							Mohd Farhan Akhtar
 						</div>
 						<TypeAnimation
 							cursor={true}
 							sequence={["MERN Stack Web Developer", 2000]}
 							wrapper="h2"
-							className="text-xl sm:text-2xl font-extralight mb-12"
+							className="text-xl sm:text-2xl font-extralight mb-5 sm:mb-12"
 						/>
-						<div className="flex flex-col sm:flex-row gap-1 sm:gap-5 items-center">
+						<div className="flex flex-col sm:flex-row gap-2 sm:gap-5 items-center">
 							<Link to="/projects">
 								<Button>View Work</Button>
 							</Link>

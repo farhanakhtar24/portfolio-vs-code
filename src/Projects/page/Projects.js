@@ -46,7 +46,7 @@ const ProjectList = [
 
 const Projects = () => {
 	return (
-		<div className="p-7 text-white overflow-auto">
+		<div className="p-4 sm:p-7 text-white overflow-auto">
 			<span className="text-xl sm:text-2xl font-semibold">
 				Stuff i've build so far...
 			</span>
