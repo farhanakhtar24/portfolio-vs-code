@@ -8,6 +8,12 @@ import "@react-pdf-viewer/zoom/lib/styles/index.css";
 import pdf from "../Assets/Resume Mohd Farhan Akhtar.pdf";
 
 const About = () => {
+	const getFilePluginInstance = getFilePlugin();
+	const { DownloadButton } = getFilePluginInstance;
+
+	const zoomPluginInstance = zoomPlugin();
+	const { ZoomInButton, ZoomOutButton, ZoomPopover } = zoomPluginInstance;
+
 	return (
 		<div className="w-full h-full p-4 sm:p-7">
 			{/* <div className="w-3/4 flex bg-white justify-between p-1">
