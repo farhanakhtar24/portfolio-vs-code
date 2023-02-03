@@ -27,6 +27,9 @@ const Home = () => {
 							<Link to="/contact">
 								<Button>Contact Me</Button>
 							</Link>
+							<Link to="/cv">
+								<Button>View CV</Button>
+							</Link>
 						</div>
 					</div>
 				</div>

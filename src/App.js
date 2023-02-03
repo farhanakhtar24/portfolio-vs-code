@@ -1,8 +1,8 @@
-import { Worker } from "@react-pdf-viewer/core";
 import React from "react";
 import { Routes, Route, Navigate } from "react-router-dom";
 import About from "./About/page/About";
 import Contact from "./Contact/page/Contact";
+import CV from "./Cv/page/CV";
 import Github from "./Github/page/Github";
 import Home from "./Home/page/Home";
 import Wrapper from "./Layout/Wrapper";
@@ -17,6 +17,8 @@ const App = (props) => {
 				<Route path="/projects" element={<Projects />} />
 				<Route path="/contact" element={<Contact />} />
 				<Route path="/github" element={<Github />} />
+				<Route path="/cv" element={<CV />} />
+
 				{/* default route */}
 				<Route path="*" element={<Navigate to="/home" />} />
 			</Routes>
