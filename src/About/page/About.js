@@ -1,5 +1,6 @@
 import React from "react";
 import AboutIntro from "../components/AboutIntro";
+import Skills from "../components/Skills";
 
 const About = () => {
 	return (
@@ -7,10 +8,11 @@ const About = () => {
 			<div className="text-xl sm:text-2xl font-semibold">
 				A Little about me
 			</div>
-			<div className="flex flex-col">
-				{/* make a card with 2 cols in a grid*/}
-				<AboutIntro />
+			<AboutIntro />
+			<div className="text-xl sm:text-2xl font-semibold mt-5">
+				Professional Skills
 			</div>
+			<Skills />
 		</div>
 	);
 };

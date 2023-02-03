@@ -11,9 +11,9 @@ const ProjectList = [
 	{
 		id: 1,
 		imgUrl: fifaTableImage,
-		title: "Portfolio",
-		desc: "My Portfolio Website built using latest technologies",
-		techArr: ["React", "TailwindCSS", "Vercel", "redux"],
+		title: "Fifa-Table-App",
+		desc: "A simple points table simulation app, built on top of Next js , using the frameworks like Tailwind Css and using redux toolkit for state management.",
+		techArr: ["Next", "TailwindCSS", "Vercel", "MongoDB", "redux"],
 		href: "https://github.com/farhanakhtar24/portfolio-vs-code",
 		liveDemo: "https://portfolio-vs-code-hoqt.vercel.app/",
 	},
@@ -21,7 +21,7 @@ const ProjectList = [
 		id: 2,
 		imgUrl: yangFormImage,
 		title: "Yang-Form",
-		desc: "My Portfolio Website built using latest technologies",
+		desc: "Yang Form is a web-based app used to create forms for data collection purposes.",
 		techArr: [
 			"React",
 			"TailwindCSS",
@@ -36,9 +36,9 @@ const ProjectList = [
 	{
 		id: 3,
 		imgUrl: portfolioImage,
-		title: "Fifa-Table-App",
+		title: "Portfolio",
 		desc: "My Portfolio Website built using latest technologies",
-		techArr: ["Next", "TailwindCSS", "Vercel", "MongoDB", "redux"],
+		techArr: ["React", "TailwindCSS", "Vercel", "redux"],
 		href: "https://github.com/farhanakhtar24/portfolio-vs-code",
 		liveDemo: "https://farhanakhtar24.vercel.app",
 	},
