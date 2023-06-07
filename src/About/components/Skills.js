@@ -109,10 +109,10 @@ const IconsArray = [
 		icon: "https://raw.githubusercontent.com/devicons/devicon/master/icons/typescript/typescript-original.svg",
 		name: "TypeScript",
 	},
-	{
-		icon: "https://www.vectorlogo.zone/logos/reactjs/reactjs-icon.svg",
-		name: "React",
-	},
+	// {
+	// 	icon: "https://www.vectorlogo.zone/logos/reactjs/reactjs-icon.svg",
+	// 	name: "React",
+	// },
 ];
 
 const Skills = () => {
