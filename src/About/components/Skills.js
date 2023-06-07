@@ -118,7 +118,7 @@ const IconsArray = [
 const Skills = () => {
 	return (
 		<div className="bg-page-navbar-blue shadow-2xl rounded-3xl p-5 flex justify-start items-center w-full">
-			<div className="sm:grid sm:grid-cols-12 gap-5">
+			<div className="sm:grid sm:grid-cols-12 gap-5 w-full">
 				{IconsArray.map((object, index) => (
 					<SkillsCards
 						Icon={object.icon}
