@@ -6,7 +6,6 @@ import {
 	LanguagesArray,
 	ToolsArray,
 } from "./IconArray";
-import RadialProgressBar from "./Bar";
 
 const Skills = () => {
 	return (
