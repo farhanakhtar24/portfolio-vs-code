@@ -1,6 +1,7 @@
 import React from "react";
 import AboutIntro from "../components/AboutIntro";
 import Skills from "../components/Skills";
+import Experience from "../components/Experience";
 
 const About = () => {
 	return (
@@ -13,6 +14,10 @@ const About = () => {
 				Professional Skills
 			</div>
 			<Skills />
+			<div className="text-xl sm:text-2xl font-semibold mt-5">
+				Experience
+			</div>
+			<Experience />
 		</div>
 	);
 };
