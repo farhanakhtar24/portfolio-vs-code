@@ -138,4 +138,10 @@ export const DbArray = [
 		name: "PostgreSQL",
 		level: "60%",
 	},
+	{
+		// for prisma
+		icon: "https://raw.githubusercontent.com/prisma/presskit/main/Assets/Prisma-LightLogo.png",
+		name: "Prisma",
+		level: "70%",
+	},
 ];
