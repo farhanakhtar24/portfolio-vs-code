@@ -10,7 +10,7 @@ import {
 const Skills = () => {
   return (
     <div className="flex w-full items-center justify-start rounded-3xl bg-page-navbar-blue p-5 shadow-2xl">
-      <div className="w-full gap-5 sm:grid sm:grid-cols-12">
+      <div className="grid w-full grid-cols-5 gap-5 sm:grid sm:grid-cols-12">
         {LanguagesArray.map((object, index) => (
           <SkillsCards
             Icon={object.icon}
