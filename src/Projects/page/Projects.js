@@ -4,10 +4,29 @@ import fifaTableImage from "../Assets/fifa-table-app.png";
 import yangFormImage from "../Assets/yang-form.png";
 import portfolioImage from "../Assets/Portfolio.png";
 import tarsImage from "../Assets/tarsImage.png";
+import talkitiveImage from "../Assets/talkitive.png";
 
 const ProjectList = [
   {
-    id: 1,
+    id: "Talkitive",
+    imgUrl: talkitiveImage,
+    title: "Talkitive",
+    desc: "Crafted a secure real-time messaging app with Pusher, Tailwind CSS, and NextAuth; offering features like read receipts, status indicators, group chats, and Cloudinary CDN file uploads.",
+    techArr: [
+      "Next",
+      "Tailwindcss",
+      "MongoDb",
+      "Prisma",
+      "Zustand",
+      "Headlessui",
+      "Cloudinary",
+      "Typescript",
+    ],
+    href: "https://github.com/farhanakhtar24/talkitive",
+    liveDemo: "https://talkitive.vercel.app/",
+  },
+  {
+    id: "Fifa-Table-App",
     imgUrl: fifaTableImage,
     title: "Fifa-Table-App",
     desc: "A simple points table simulation app, built on top of Next js , using the frameworks like Tailwind Css and using redux toolkit for state management.",
@@ -16,16 +35,16 @@ const ProjectList = [
     liveDemo: "https://fifa-table-app.vercel.app/",
   },
   {
-    id: 2,
+    id: "Tars Image Gallery",
     imgUrl: tarsImage,
     title: "Tars Image Gallery",
     desc: "An Image Gallery webapp built using Next.js, TailwindCSS and utilizing the Unsplash API.",
-    techArr: ["Next.js", "TailwindCSS", "Vercel"],
+    techArr: ["Next", "TailwindCSS", "Vercel"],
     href: "https://github.com/farhanakhtar24/tars",
     liveDemo: "https://tars-beta.vercel.app/",
   },
   {
-    id: 3,
+    id: "Yang-Form",
     imgUrl: yangFormImage,
     title: "Yang-Form",
     desc: "Yang Form is a web-based app used to create forms for data collection purposes.",
@@ -34,7 +53,7 @@ const ProjectList = [
     liveDemo: "https://yang-form.netlify.app/",
   },
   {
-    id: 4,
+    id: "Portfolio",
     imgUrl: portfolioImage,
     title: "Portfolio",
     desc: "My Portfolio Website built using latest technologies",
